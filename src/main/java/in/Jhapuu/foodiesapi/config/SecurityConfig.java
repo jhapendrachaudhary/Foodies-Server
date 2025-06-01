@@ -63,7 +63,8 @@ public class SecurityConfig {
         config.setAllowedOrigins(List.of(
                 "http://localhost:5173",
                 "http://localhost:5174",
-                "https://online-foods-delivary.vercel.app/"
+                "https://online-foods-delivary.vercel.app/",
+                "https://wonderful-encouragement-production.up.railway.app"
 
         ));
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"));

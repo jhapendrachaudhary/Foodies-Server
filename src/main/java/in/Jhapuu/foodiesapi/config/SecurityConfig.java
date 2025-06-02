@@ -61,8 +61,9 @@ public class SecurityConfig {
     private UrlBasedCorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration config = new CorsConfiguration();
         config.setAllowedOrigins(List.of(
-                "http://localhost:5173",
-                "http://localhost:5174",
+                "https://foodies-admin-beta.vercel.app",
+                "https://foodies-admin-ijr2q3cym-unknownmen777s-projects.vercel.app",
+                "https://foodies-admin-git-master-unknownmen777s-projects.vercel.app",
                 "https://online-foods-delivary.vercel.app",
                 "https://online-foods-delivary-git-master-unknownmen777s-projects.vercel.app",
                 "https://online-foods-delivary-omyrw8tn0-unknownmen777s-projects.vercel.app"

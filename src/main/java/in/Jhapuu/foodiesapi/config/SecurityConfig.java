@@ -66,7 +66,10 @@ public class SecurityConfig {
                 "https://foodies-admin-git-master-unknownmen777s-projects.vercel.app",
                 "https://online-foods-delivary.vercel.app",
                 "https://online-foods-delivary-git-master-unknownmen777s-projects.vercel.app",
-                "https://online-foods-delivary-omyrw8tn0-unknownmen777s-projects.vercel.app"
+                "https://online-foods-delivary-omyrw8tn0-unknownmen777s-projects.vercel.app",
+                "https://foodies-app-livid.vercel.app",
+                "https://foodies-app-unknownmen777s-projects.vercel.app",
+                "https://foodies-app-git-master-unknownmen777s-projects.vercel.app"
 
         ));
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"));
